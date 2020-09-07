@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#770099cc"
+    android:orientation="vertical">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/can"
+        />
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        android:drawableLeft="@drawable/cd"
+        android:paddingLeft="8dp"
+        android:textSize="17dp"
+        android:gravity="left|center_vertical"
+        android:background="@drawable/shape"
+        android:text="     쓰레기통 확인"
+        android:id="@+id/btnok"/>
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/fd"
+        android:paddingLeft="8dp"
+        android:textSize="17dp"
+        android:gravity="left|center_vertical"
+        android:background="@drawable/shape"
+        android:text="     쓰레기통 등록"
+        android:id="@+id/btn2"/>
+
+</LinearLayout>
